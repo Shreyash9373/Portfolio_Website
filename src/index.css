@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+}
+
+.diamond-shape {
+  width: 300px;
+  /* Adjust to your preferred size */
+  height: auto;
+  /* Maintain aspect ratio */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
